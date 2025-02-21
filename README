@@ -3,63 +3,30 @@ npm start to start server
 
 
 
-# **BeastMaker - How to Play**
+BeastMaker Readme
 
-## **Objective**
-BeastMaker is a strategic game where players create and evolve powerful creatures using a set of randomly assigned tiles. The goal is to build the strongest beast and outmatch your opponent in battle.
+Game Overview
 
----
+BeastMaker is a strategic game where players build creatures by placing attribute tiles and evolving them. These creatures then battle based on their attributes, with special abilities influencing the outcome.
 
-## **Setup**
-1. Each player is randomly dealt **six tiles**.
-2. Each tile represents part of a creature and contains:
-   - A **name** and **short description** of a beast.
-   - **Three attributes** from Speed, Strength, Cunning, Tenacity, or Special.
-3. If the first hand **lacks at least one attribute** (including Special), the player may discard and redraw a new set of six tiles.
-4. Players must **choose five tiles** to keep and **discard one** before the game begins.
+Game Phases
 
----
+Phase 1 - Draw & Mulligan: Players draw six tiles and can redraw if missing an attribute.
 
-## **Phase 1: Placing Your Tiles**
-1. Players **take turns placing tiles**, one at a time, onto their board.
-2. Each tile must be placed in one of the five available slots (**Speed, Strength, Cunning, Tenacity, Special**).
-3. Once placed, a tile **cannot be moved** until the end of **Phase 3**.
-4. Players can see each other's tile **names and descriptions**, but they **cannot see the tile’s evolution options**.
+Phase 2 - Tile Placement: Players take turns placing tiles into Speed, Strength, Cunning, Tenacity, or Special slots.
 
----
+Phase 3 - Evolution: Players take turns evolving their tiles via Pressure or Confer.
 
-## **Phase 2: Evolution**
-1. Players may **evolve any number of their tiles** using one of two methods:
-   - **Pressure Evolution:** Increases one attribute significantly but decreases another.
-   - **Confer Evolution:** Provides a smaller stat increase but may grant a **Special ability**.
-2. Evolution choices remain **hidden from the opponent**.
+Pressure: Increases one attribute significantly, decreases another slightly, and grants a new special ability.
 
----
+Confer: Increases attributes moderately but retains the original special ability.
 
-## **Phase 3: Final Adjustments**
-1. After evolution, players may **simultaneously swap the positions** of their tiles to optimize their final creature design.
-2. The final tile layouts are **not revealed until the end of this phase**.
-3. No further changes can be made after swapping.
+Players may use their Pressure evolutions on their opponent’s tiles.
 
----
+Players may only Confer their own tiles.
 
-## **Phase 4: Battle!**
-1. Once all tiles are placed and evolved, the AI creates a **unique creature** based on the final tile selections.
-2. The two creatures battle, with the AI determining the winner based on their attributes and any special abilities.
-3. The AI narrates the battle, revealing the outcome through a short story.
+Phase 4 - Hidden Tile Swap: Players secretly rearrange their tiles.
 
----
+Phase 5 - Reveal Final Configuration: All tiles are revealed in their final placements.
 
-## **Winning the Game**
-- The player whose creature wins the battle is declared the winner!
-- Special abilities may influence key battle moments.
-
----
-
-## **Strategy Tips**
-- Think ahead about **which attributes** you want to prioritize.
-- Consider **bluffing** by evolving unpredictably.
-- Special abilities can **turn the tide of battle**, so use them wisely!
-
-Enjoy crafting your ultimate beast in *BeastMaker*! 🔥
-
+Phase 6 - Battle: The creatures battle using an AI algorithm based on their attributes.
